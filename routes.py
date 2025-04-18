@@ -192,7 +192,7 @@ def endpoint4(swift_code):
     try:
         if not swift_code:
             return jsonify({'error': 'swiftCode is required'}), 400
-        result = collection.delete_one({'swiftCode': swift_code})
+        result = database['banks'].delete_one({'swiftCode': swift_code})
         if result.deleted_count == 0:
             return jsonify({'error': 'No document found with the provided swiftCode'}), 404
         return jsonify({'message': f'Document with swiftCode {swift_code} deleted successfully'}), 200
