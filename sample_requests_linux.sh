@@ -1,11 +1,11 @@
 # ENDPOINT 1: 
 echo "*** ENDPOINT 1: Retrieve information about provided swift code. ***"
-#curl http://localhost:8080/v1/swift-codes/AFAAUYM1XXX
+curl http://localhost:8080/v1/swift-codes/AFAAUYM1XXX
 
 
 # ENDPOINT 2:
 echo "*** ENDPOINT 2: Retrieve information about swift codes by country ***"
-#curl http://localhost:8080/v1/swift-codes/country/BG
+curl http://localhost:8080/v1/swift-codes/country/BG
 
 # ENDPOINT 3:
 echo "*** ENDPOINT 3: Add new swift code"
