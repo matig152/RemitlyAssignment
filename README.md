@@ -16,7 +16,6 @@ The following dependencies are needed for this project to run:
 
 # Endpoint examples
 ### Endpoint 1: Retrieve information about provided SWIFT code
-Use command:
 ```
 curl http://localhost:8080/v1/swift-codes/AFAAUYM1XXX
 ```
