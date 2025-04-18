@@ -8,7 +8,9 @@ The following dependencies are needed for this project to run:
 
 # Installation
 1. Clone this repository
-2. Run MongoDB Comunity Server
+2. Run MongoDB Comunity Server ```sudo systemctl start mongod```
+3. Run app.py file ```python3 app.py ```
+4. Execute requests, as shown in section below.
 
 
 
